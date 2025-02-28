@@ -1,0 +1,35 @@
+# Ignore Google Drive mount points
+/content/drive/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+
+# Ignore dataset and large files
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pth
+*.ckpt
+*.onnx
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore Colab system files
+.colab/
+.history
